@@ -1,0 +1,19 @@
+{
+  "name": "mcp-api-docs-reader",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP服务器用于读取接口文档URL",
+  "main": "mcp-api-docs-server.js",
+  "scripts": {
+    "start": "node mcp-api-docs-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "api-docs", "reader"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "node-fetch": "^3.3.2"
+  }
+}
+
