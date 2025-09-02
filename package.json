@@ -8,12 +8,18 @@
     "start": "node mcp-api-docs-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["mcp", "api-docs", "reader"],
+  "keywords": [
+    "mcp",
+    "api-docs",
+    "reader"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.4",
-    "node-fetch": "^3.3.2"
+    "cheerio": "^1.1.2",
+    "jsdom": "^26.1.0",
+    "node-fetch": "^3.3.2",
+    "playwright-core": "^1.55.0"
   }
 }
-
